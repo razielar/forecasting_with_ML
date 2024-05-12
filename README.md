@@ -1,6 +1,7 @@
 # Forecasting with Machine Learning
 
-Repo from the course is placed [here](https://github.com/trainindata/forecasting-with-machine-learning). Additionally, Feature Engineering for Time Series Forecasting (course 1) is placed [here](https://github.com/razielar/feature_engineering_ts_forecasting?tab=readme-ov-file).
+Repo from the course is placed [here](https://github.com/trainindata/forecasting-with-machine-learning).     
+Additionally, Feature Engineering for Time Series Forecasting (course 1) is placed [here](https://github.com/razielar/feature_engineering_ts_forecasting?tab=readme-ov-file).
 
 1. [Time Series as regression](#one)
 2. [Multistep forecasting](#two)
