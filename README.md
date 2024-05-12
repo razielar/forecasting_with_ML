@@ -11,6 +11,25 @@ Additionally, Feature Engineering for Time Series Forecasting (course 1) is plac
 
 ## 1) <a id='one'></a> Time Series as regression
 
+### Time series types
+
+Regular types are easier to forecast them.
+
+### Time series components
+
+* **Trend**: long term change in the mean of the time series.
+* **Seasonality**: regular, repetitive fluctuations.
+* **Cyclicity**: irregular fluctuations over longer time periods. For example, recessions or wars.
+* **Residuals**: error term.
+
+### Forecasting models
+
+Some advantages of using ML models: 
+* Interpretability
+* Model non-linear or complex relationships
+* Model multiple time series simultaneously
+* Combine features from: the time series and exogenous data sources
+
 ## 2) <a id='two'></a> Multistep forecasting
 
 ## 3) <a id='three'></a> Multiseries forecasting
