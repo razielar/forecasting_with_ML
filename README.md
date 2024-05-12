@@ -49,6 +49,18 @@ Some advantages of using ML models:
 
 ## 2) <a id='two'></a> Multistep forecasting
 
+### Recursive forecast
+
+* Train a single model to predict one-step ahead.
+* Use the model recursively, to predict each step of the horizon.
+* Oldest, most intuitive and most popular strategy.
+* It is incorporated in statatistical forecasting models such as: ARIMA and ETS.
+
+| Pros | Cons |
+|----------|----------|
+| One ML model   | Bias and variance of the error in the first step of forecast accumulate as we move further in the horizon. |
+
+
 ## 3) <a id='three'></a> Multiseries forecasting
 
 ## 4) <a id='four'></a> Backtesting
