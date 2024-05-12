@@ -40,12 +40,12 @@ Some advantages of using ML models:
 
 ### Benchmark models
 
-| Baseline model | Description | Comments |
-|----------|----------|----------|
-| Naive forecast          | Uses the most recent observation as forecast.                           | Row 1    |
-| Moving average          | Uses the mean of the X most recent observations as forecast.            | Row 2    |
-| Seasonal naive forecast | Uses the most recent observation within the same season as forecast.    | Row 3    |
-| Historial average       | Uses the average of historical data as forecast.                        | Row 4    |
+| Baseline model | Description | 
+|----------|----------|
+| **Naive forecast**          | Uses the most recent observation as forecast.                           | 
+| **Moving average**          | Uses the mean of the X most recent observations as forecast.            | 
+| **Seasonal naive forecast** | Uses the most recent observation within the same season as forecast.    | 
+| **Historial average**       | Uses the average of historical data as forecast.                        | 
 
 ## 2) <a id='two'></a> Multistep forecasting
 
