@@ -15,6 +15,10 @@ Additionally, Feature Engineering for Time Series Forecasting (course 1) is plac
 
 Regular types are easier to forecast them.
 
+<div align="center">
+<img src="https://github.com/razielar/forecasting_with_ML/blob/main/img/time_series_types.png" alt="logo"></img>
+</div>
+
 ### Time series components
 
 * **Trend**: long term change in the mean of the time series.
@@ -23,6 +27,10 @@ Regular types are easier to forecast them.
 * **Residuals**: error term.
 
 ### Forecasting models
+
+<div align="center">
+<img src="https://github.com/razielar/forecasting_with_ML/blob/main/img/forecasting_models.png" alt="logo"></img>
+</div>
 
 Some advantages of using ML models: 
 * Interpretability
