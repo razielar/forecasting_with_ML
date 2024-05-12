@@ -38,6 +38,15 @@ Some advantages of using ML models:
 * Model multiple time series simultaneously
 * Combine features from: the time series and exogenous data sources
 
+### Benchmark models
+
+| Baseline model | Description | Comments |
+|----------|----------|----------|
+| Naive forecast          | Uses the most recent observation as forecast.                           | Row 1    |
+| Moving average          | Uses the mean of the X most recent observations as forecast.            | Row 2    |
+| Seasonal naive forecast | Uses the most recent observation within the same season as forecast.    | Row 3    |
+| Historial average       | Uses the average of historical data as forecast.                        | Row 4    |
+
 ## 2) <a id='two'></a> Multistep forecasting
 
 ## 3) <a id='three'></a> Multiseries forecasting
