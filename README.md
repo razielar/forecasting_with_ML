@@ -60,6 +60,7 @@ Some advantages of using ML models:
 |----------|----------|
 | One ML model   | Bias and variance of the error in the first step of forecast accumulate as we move further in the horizon. |
 
+### Direct forecast
 
 ## 3) <a id='three'></a> Multiseries forecasting
 
