@@ -51,6 +51,10 @@ Some advantages of using ML models:
 
 ### Recursive forecast
 
+<div align="center">
+<img src="https://github.com/razielar/forecasting_with_ML/blob/main/img/recursive_forecast_mod.png" alt="logo"></img>
+</div>
+
 * Train a single model to predict one-step ahead.
 * Use the model recursively, to predict each step of the horizon.
 * Oldest, most intuitive and most popular strategy.
