@@ -62,6 +62,14 @@ Some advantages of using ML models:
 
 ### Direct forecast
 
+* Train one model per step in the horizon.
+* Each step in the horizon is forecast independently.
+
+| Pros | Cons |
+|----------|----------|
+| Does not propagate estimation errors. | Forecast are independent. |
+| Less estimation variance              | Computational cost. |
+
 ## 3) <a id='three'></a> Multiseries forecasting
 
 ## 4) <a id='four'></a> Backtesting
