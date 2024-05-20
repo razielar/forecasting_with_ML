@@ -62,6 +62,10 @@ Some advantages of using ML models:
 
 ### Direct forecast
 
+<div align="center">
+<img src="https://github.com/razielar/forecasting_with_ML/blob/main/img/direct_forecast.png" alt="logo"></img>
+</div>
+
 * Train one model per step in the horizon.
 * Each step in the horizon is forecast independently.
 
