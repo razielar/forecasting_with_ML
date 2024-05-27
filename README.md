@@ -114,12 +114,13 @@ Examples of **multiple dependent time series** or **multivariate time series**:
 <img src="https://github.com/razielar/forecasting_with_ML/blob/main/img/local_forecasting.png" alt="logo"></img>
 </div>
 
-
 | Num  | Local forecasting Pros | Local forecasting Cons |
 |------|----------|----------|
-| 1    | Data 1   | Data A   |
-| 2    | Data 2   | Data B   |
-| 3    | Data 3   | Data C   |
+| 1    | Each model can adjust its parameters to fit each time series individually. | Worse approach on short time series, can't learn much from small sample size. |
+| 2    |    | Computational and maitenance cost of using one model per series.     |
+| 3    |    | Does not use all the learnable information available in the dateset. |
+
+### Global vs. Local forecasting
 
 
 
