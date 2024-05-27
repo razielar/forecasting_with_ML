@@ -82,7 +82,21 @@ Some advantages of using ML models:
 
 ### Multiple time series
 
+<div align="center">
+<img src="https://github.com/razielar/forecasting_with_ML/blob/main/img/multiple_ts.png" alt="logo"></img>
+</div>
 
+Examples of **multiple independent time series**:
+* Energy demand by household.
+* Sale products in different stores.
+* Air pollution in different cities.
+* Picked SKUs (stock keeping units) by warehouse.
+
+Examples of **multiple dependent time series** or **multivariate time series**:
+* The simultaneous measurement of: blood preassure, temperature, and heart rate of the same patient.
+* Measurement of multiple sensors such as: temperature, preassure, and flow.
+
+### Global and Local forecasting
 
 ## 4) <a id='four'></a> Backtesting
 
