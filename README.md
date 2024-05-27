@@ -99,6 +99,10 @@ Examples of **multiple dependent time series** or **multivariate time series**:
 ### Global and Local forecasting
 
 <div align="center">
+<img src="https://github.com/razielar/forecasting_with_ML/blob/main/img/global_forecasting.png" alt="logo"></img>
+</div>
+
+<div align="center">
 <img src="https://github.com/razielar/forecasting_with_ML/blob/main/img/local_forecasting.png" alt="logo"></img>
 </div>
 
