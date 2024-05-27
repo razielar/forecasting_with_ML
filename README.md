@@ -80,6 +80,10 @@ Some advantages of using ML models:
 
 ## 3) <a id='three'></a> Multiseries forecasting
 
+### Multiple time series
+
+
+
 ## 4) <a id='four'></a> Backtesting
 
 ## 5) <a id='five'></a> Error metrics
