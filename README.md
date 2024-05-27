@@ -102,9 +102,26 @@ Examples of **multiple dependent time series** or **multivariate time series**:
 <img src="https://github.com/razielar/forecasting_with_ML/blob/main/img/global_forecasting.png" alt="logo"></img>
 </div>
 
+| Num  | Global forecasting Pros | Global forecasting Cons |
+|------|----------|----------|
+| 1    | Easier to matain a single model.                                | Without a shared global pattern, the model may lear a pattern that isn't representative. |
+| 2    | Learns common patterns across the whole dateset.                | The above depends on: model complexity, features and heterogeneity of the time series.   |
+| 3    | Increases the sample size when we pass multiple ts to the model | Training and backtesting larger models can take more time.                               |
+| 4    | Better at forecasting a short time series.                      |    |
+
+
 <div align="center">
 <img src="https://github.com/razielar/forecasting_with_ML/blob/main/img/local_forecasting.png" alt="logo"></img>
 </div>
+
+
+| Num  | Local forecasting Pros | Local forecasting Cons |
+|------|----------|----------|
+| 1    | Data 1   | Data A   |
+| 2    | Data 2   | Data B   |
+| 3    | Data 3   | Data C   |
+
+
 
 ## 4) <a id='four'></a> Backtesting
 
