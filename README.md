@@ -122,7 +122,14 @@ Examples of **multiple dependent time series** or **multivariate time series**:
 
 ### Global vs. Local forecasting
 
-
+| Num | Global models | Local models |
+|-----|----------|----------|
+| 1   | A large number of related time series.                                   | A small number of time series.                       |
+| 2   | The time series share some global patterns.                              | Each time series has very different characterictics. |
+| 3   | We have exogenous features that impact many of the time series.          | |
+| 4   | We want to forecast shorter time series after learning from multiple ts. | |
+| 5   | Use all relevant features and complex models to capture the variety of patterns that exist in the dataset.                             | |
+| 6   | Can try training multiple global models on subgroups of the data if there is a lot of different characteristics in the ts by subgroup. | |
 
 ## 4) <a id='four'></a> Backtesting
 
