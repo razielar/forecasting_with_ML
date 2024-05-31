@@ -134,3 +134,10 @@ Examples of **multiple dependent time series** or **multivariate time series**:
 ## 4) <a id='four'></a> Backtesting
 
 ## 5) <a id='five'></a> Error metrics
+
+Factors that impact which error metric to use:
+
+<div align="center">
+<img src="https://github.com/razielar/forecasting_with_ML/blob/main/img/factor_error_metrics.png" alt="logo"></img>
+</div>
+
