@@ -149,3 +149,11 @@ Factors that impact which error metric to use:
 <img src="https://github.com/razielar/forecasting_with_ML/blob/main/img/forecast_bias.png" alt="logo"></img>
 </div>
 
+**Metrics to measure bias**:
+
+| Num | Name | Desc |
+|----------|----------|----------|
+| 1   | Mean error (ME)                 | scale dependent     |
+| 2   | Cumulative forecast error (CFE) | scale dependent     |
+| 3   | Forecast bias  (FB)             | scale independent   |
+| 4   | Tracking signal ($TS_w$)        | scale independent, past rolling window $_w$. Threshold (+- 3.75) |
