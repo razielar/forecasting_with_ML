@@ -143,7 +143,9 @@ Factors that impact which error metric to use:
 
 ### Measuring forecasting bias
 
-Bias: is where we on average, over or under forecast.
+`Bias`: is where we on average, over or under forecast.
 
-
+<div align="center">
+<img src="https://github.com/razielar/forecasting_with_ML/blob/main/img/forecast_bias.png" alt="logo"></img>
+</div>
 
