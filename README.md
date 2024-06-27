@@ -156,4 +156,4 @@ Factors that impact which error metric to use:
 | 1   | Mean error (ME)                 | scale dependent     |
 | 2   | Cumulative forecast error (CFE) | scale dependent     |
 | 3   | Forecast bias  (FB)             | scale independent   |
-| 4   | Tracking signal ($TS_w$)        | scale independent, past rolling window $_w$. Threshold (+- 3.75) |
+| 4   | Tracking signal ($TS_w$)        | scale independent, w: past rolling window. Threshold (+- 3.75) |
