@@ -135,6 +135,8 @@ Examples of **multiple dependent time series** or **multivariate time series**:
 
 ## 5) <a id='five'></a> Error metrics
 
+### Measuring forecasting errors
+
 Factors that impact which error metric to use:
 
 <div align="center">
