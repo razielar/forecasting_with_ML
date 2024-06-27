@@ -141,3 +141,9 @@ Factors that impact which error metric to use:
 <img src="https://github.com/razielar/forecasting_with_ML/blob/main/img/factor_error_metrics.png" alt="logo"></img>
 </div>
 
+### Measuring forecasting bias
+
+Bias: is where we on average, over or under forecast.
+
+
+
