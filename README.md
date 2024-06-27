@@ -149,6 +149,8 @@ Factors that impact which error metric to use:
 <img src="https://github.com/razielar/forecasting_with_ML/blob/main/img/forecast_bias.png" alt="logo"></img>
 </div>
 
+The model 2 (red bins): `under forecast`.
+
 **Metrics to measure bias**:
 
 | Num | Name | Desc |
