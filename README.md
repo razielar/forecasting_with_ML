@@ -179,6 +179,17 @@ MAE and MSE or RMSE are symmetric metrics *i.e.* symmetric to under and over for
 
 **Percentage**
 
+We rescale by the actual value, as described below:
+
+$$ e_t = y_t - \hat{y}_t $$
+
+Percentage error:
+
+Symmetric percentage error:
+
+
+
+
 **Relative**
 
 Using a baseline forecast as comparison, on the `test set` at the one time point.
