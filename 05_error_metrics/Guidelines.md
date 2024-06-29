@@ -26,4 +26,7 @@ Percentage error guidelines:
 
 ### Relative error
 
+<div align="center">
+<img src="https://github.com/razielar/forecasting_with_ML/blob/main/img/guideline_relative_error.png" alt="logo"></img>
+</div>
 

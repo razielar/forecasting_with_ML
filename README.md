@@ -227,7 +227,9 @@ Using a baseline forecast as comparison, benchmark forecast:
 
 **Relative error metrics**
 
-
+<div align="center">
+<img src="https://github.com/razielar/forecasting_with_ML/blob/main/img/relative_error_metrics.png" alt="logo"></img>
+</div>
 
 **Scaled**
 
