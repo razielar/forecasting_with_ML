@@ -179,7 +179,9 @@ However, errors in the `training set` may not be representative of the errors in
 
 $$ \text{MASE} =  \text{mean}(|q_t|) $$
 
-$$ q_t = \frac{y_t - \hat{y}_t}{MAE_{naive}} $$
+$$ \text{RMSSE} =  \sqrt{ \text{mean}(q_t^2) } $$
+
+
 
 
 
