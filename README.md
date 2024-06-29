@@ -8,6 +8,7 @@ Additionally, Feature Engineering for Time Series Forecasting (course 1) is plac
 3. [Multiseries forecasting](#three)
 4. [Backtesting](#four)
 5. [Error metrics](#five)
+6. [Bbliography](#six)
 
 ## 1) <a id='one'></a> Time Series as regression
 
@@ -135,6 +136,9 @@ Examples of **multiple dependent time series** or **multivariate time series**:
 
 ## 5) <a id='five'></a> Error metrics
 
+Error metrics: summarize forecast errors into a single number to measure the accuracy of a forecast.    
+We need to transform forecasting errors to make them positive, to ensure negative and positive errors don't cancel each other.
+
 ### Measuring forecasting errors
 
 Factors that impact which error metric to use:
@@ -142,6 +146,11 @@ Factors that impact which error metric to use:
 <div align="center">
 <img src="https://github.com/razielar/forecasting_with_ML/blob/main/img/factor_error_metrics.png" alt="logo"></img>
 </div>
+
+### Multiple time series
+
+
+
 
 ### Measuring forecasting bias
 
@@ -161,3 +170,7 @@ The model 2 (red bins): `under forecast`.
 | 2   | Cumulative forecast error (CFE) | scale dependent     |
 | 3   | Forecast bias  (FB)             | scale independent   |
 | 4   | Tracking signal ($TS_w$)        | scale independent, w: past rolling window. Threshold (+- 3.75) |
+
+## 6) <a id='six'></a> Bibliography
+
+* **Error metrics**: [Forecast evaluation for data scientists: common pitfalls and best practices](https://link.springer.com/article/10.1007/s10618-022-00894-5)
