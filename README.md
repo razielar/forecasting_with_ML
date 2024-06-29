@@ -164,6 +164,25 @@ Factors that impact which error metric to use:
 <img src="https://github.com/razielar/forecasting_with_ML/blob/main/img/factor_error_metrics.png" alt="logo"></img>
 </div>
 
+### Scale independent error metrics
+
+**Percentage**
+
+**Relative**
+
+Using a baseline forecast as comparison.
+
+**Scaled**
+
+Introduced by Hyndman in 2005, 1-step or a seasonal naive forecast on the `training set`. Scaled errors are symmetric to over and under forecasting, are well behaved when actuals ($y$) and predictions ($\hat{y}$) are zero.   
+However, errors in the `training set` may not be representative of the errors in the forecast horizon.
+
+$$ \text{MASE} =  \text{mean}(|q_t|) $$
+
+$$ q_t = \frac{y_t - \hat{y}_t}{MAE_{naive}} $$
+
+
+
 ### Multiple time series
 
 
