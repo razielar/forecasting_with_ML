@@ -168,6 +168,8 @@ Factors that impact which error metric to use:
 
 ### Scale dependent error metrics
 
+MAE and MSE or RMSE are symmetric metrics *i.e.* symmetric to under and over forecasting, as depicted below:
+
 
 
 
