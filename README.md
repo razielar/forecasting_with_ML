@@ -156,13 +156,15 @@ As described above, error metrics can be classified by:
 * Type of forecast error transformation: absolute or square transformation.
 * Other. 
 
-### Measuring forecasting errors
-
 Factors that impact which error metric to use:
 
 <div align="center">
 <img src="https://github.com/razielar/forecasting_with_ML/blob/main/img/factor_error_metrics.png" alt="logo"></img>
 </div>
+
+* **1)** **Outliers**: if present use absolute errors (MAE) or median as aggregation method.
+* **2)** **Multiple time series**: decide if use scale-dependent (we care more for ts with higher sales) or scale-independent (we care equally to all time series) metric.
+* **3)** **Intermittent time series**: squared errors (RMSE) tends to optimize on the mean, thus squared errors are better suited for intermittent ts.
 
 ### Scale dependent error metrics
 
