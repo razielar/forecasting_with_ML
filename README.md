@@ -134,10 +134,7 @@ Examples of **multiple dependent time series** or **multivariate time series**:
 
 ## 4) <a id='four'></a> Backtesting
 
-Backtesting is where we measure the performance of a forecasting model on historic data. Backtesting is like: **cross validation** but for time series. Often used for:
-* Model selection
-* Feature selection
-* Hyper-paramer tuning
+Backtesting is where we measure the performance of a forecasting model on historic data. Backtesting is like: **cross validation** but for time series. Often used for: **a)** Model selection, **b)** Feature selection, **c)** Hyper-paramer tuning.
 
 Before, starting we need to define the following variables: Dataset, Forecasting horizon, Error metrics, and Models. 
 Additionally, we need to consider the following:
@@ -157,8 +154,7 @@ Additionally, we need to consider the following:
 
 Genrally avoid use it.
 
-
-
+![image](https://github.com/razielar/forecasting_with_ML/blob/main/img/backtesting/backtesting_no_refit.gif)
 
 
 ## 5) <a id='five'></a> Error metrics
