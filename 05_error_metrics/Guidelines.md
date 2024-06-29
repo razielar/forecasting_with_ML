@@ -20,5 +20,7 @@ Modified percentage errors help with zeros:
 
 Percentage error guidelines:
 
-
+<div align="center">
+<img src="https://github.com/razielar/forecasting_with_ML/blob/main/img/percentage_error_guidelines.png" alt="logo"></img>
+</div>
 

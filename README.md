@@ -145,6 +145,8 @@ $$ \text{MAE} = \frac{1}{n} \sum_{i=1}^{n} \left| y_i - \hat{y}_i \right| $$
 
 $$ \text{RMSE} = \sqrt{ \frac{1}{n} \sum_{i=1}^{n} \left( y_i - \hat{y}_i \right)^2 } $$
 
+To see a complitec guideline for when to use each error metric, see [error metric guidelines](https://github.com/razielar/forecasting_with_ML/blob/main/05_error_metrics/Guidelines.md).
+
 ### Error metrics classification
 
 <div align="center">
