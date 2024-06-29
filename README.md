@@ -214,6 +214,9 @@ Further:
 * MAPE: if we optime for MAPE, we `under forecast`.
 * sMAPE: if we optime for sMAPE, we `under forecast`.
 
+However, exist a modified percentage errors which help with zeros, see more [here](https://github.com/razielar/forecasting_with_ML/blob/main/05_error_metrics/Guidelines.md). Additionally,
+`WAPE` (weighted mean absolute percentage error) is symmetric to over and under forecasting, can handle some zeros (unlike MAPE), but can't handle ts with all zeros and trend and level shift can be an issue for WAPE.
+
 **Relative**
 
 Using a baseline forecast as comparison, on the `test set` at the one time point.

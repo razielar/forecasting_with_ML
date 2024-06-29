@@ -8,3 +8,11 @@ For example: MAE or RMSE.
 <img src="https://github.com/razielar/forecasting_with_ML/blob/main/img/guidelines_scale_dependent.png" alt="logo"></img>
 </div>
 
+## Scale independent metrics
+
+### Percentage error
+
+Modified percentage errors help with zeros:
+
+
+
