@@ -150,6 +150,10 @@ Additionally, we need to consider the following:
 * **3)** Backtesting with refit (`Nixtla` strategy).
 * **4)** Backtesting without refit.
 
+### Backtesting with refit
+
+![image](https://github.com/razielar/forecasting_with_ML/blob/main/img/backtesting/backtesting_refit.gif)
+
 ### Backtesting without refit
 
 Genrally avoid use it.
