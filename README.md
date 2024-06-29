@@ -170,7 +170,9 @@ Factors that impact which error metric to use:
 
 MAE and MSE or RMSE are symmetric metrics *i.e.* symmetric to under and over forecasting, as depicted below:
 
-
+<div align="center">
+<img src="https://github.com/razielar/forecasting_with_ML/blob/main/img/symmetry_mae_mse.png" alt="logo"></img>
+</div>
 
 
 ### Scale independent error metrics
