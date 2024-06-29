@@ -177,7 +177,7 @@ Using a baseline forecast as comparison.
 Introduced by Hyndman in 2005, 1-step or a seasonal naive forecast on the `training set`. Scaled errors are symmetric to over and under forecasting, are well behaved when actuals ($y$) and predictions ($\hat{y}$) are zero.   
 However, errors in the `training set` may not be representative of the errors in the forecast horizon.
 
-$$ q_t = \frac{y_i - \hat{y}_i}{\text{MSE}_{\text{naive}}}  $$
+$$ q_t = \frac{e_t}{\text{MSE}_{\text{naive}}}  $$
 
 $$ \text{MASE} =  \text{mean}(|q_t|) $$
 
