@@ -204,10 +204,15 @@ $$ p^{*}_{t} = \frac{100e_t}{ \frac{1}{2} \left( |y_t| + |\hat{y_t}| \right) } $
 </div>
 
 
-Percentage errors behave badly both when $y = 0$ or $\hat{y} = 0$, as depicted below:
+Percentage errors behave badly both when $y = 0$ or $\hat{y} = 0$, as depicted in the plot for MAPE and sMAPE, respectively:
 
+<div align="center">
+<img src="https://github.com/razielar/forecasting_with_ML/blob/main/img/mape_smape_issue_plot.png" alt="logo"></img>
+</div>
 
-
+Further:
+* MAPE: if we optime for MAPE, we `under forecast`.
+* sMAPE: if we optime for sMAPE, we `under forecast`.
 
 **Relative**
 
