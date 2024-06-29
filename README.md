@@ -195,7 +195,9 @@ Interpretation:
 
 ### Multiple time series
 
-
+<div align="center">
+<img src="https://github.com/razielar/forecasting_with_ML/blob/main/img/multiple_ts_errors.png" alt="logo"></img>
+</div>
 
 
 ### Measuring forecasting bias
