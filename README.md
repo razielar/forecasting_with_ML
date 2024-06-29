@@ -195,6 +195,17 @@ Symmetric percentage error:
 
 $$ p^{*}_{t} = \frac{100e_t}{ \frac{1}{2} \left( |y_t| + |\hat{y_t}| \right) } $$
 
+**NOTE**: sMAPE or symmetric MAPE its name is misleading is symmetric to: swapping real and predicted values. Nonetheless, not symmetric for: symmetric for over and under forecasting.
+
+**Percentage error metrics**
+
+<div align="center">
+<img src="https://github.com/razielar/forecasting_with_ML/blob/main/img/percentage_error_metrics.png" alt="logo"></img>
+</div>
+
+
+
+
 
 **Relative**
 
