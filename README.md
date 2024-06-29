@@ -137,15 +137,13 @@ Examples of **multiple dependent time series** or **multivariate time series**:
 ## 5) <a id='five'></a> Error metrics
 
 **Error metrics**: summarize forecast errors into a single number to measure the accuracy of a forecast.    
-We need to transform forecasting errors to make them positive, to ensure negative and positive errors don't cancel each other.    
-In general, we can convert forecasting error by:
+We need to transform forecasting errors to make them positive, to ensure negative and positive errors don't cancel each other. In general, we can convert forecasting error by:
 * **Absolute** transformation: *e.g.* Mean absolute error which optimeze for the median thus better for ts with outliers.
-
 * **Square** transformation: *e.g.* Root mean square error optimeze for the mean thus better for intermittent ts.
 
 $$ \text{MAE} = \frac{1}{N} \sum_{i=1}^{n} \left| y_i - \hat{y}_i \right| $$
 
-$$ \text{RMSE} = $$
+$$ \text{RMSE} = \sqrt{ \frac{1}{N} \sum_{i=1}^{n} \left( y_i - \hat{y}_i \right)^2 } $$
 
 ### Measuring forecasting errors
 
