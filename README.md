@@ -8,7 +8,7 @@ Additionally, Feature Engineering for Time Series Forecasting (course 1) is plac
 3. [Multiseries forecasting](#three)
 4. [Backtesting](#four)
 5. [Error metrics](#five)
-6. [Bbliography](#six)
+6. [Bibliography](#six)
 
 ## 1) <a id='one'></a> Time Series as regression
 
@@ -137,7 +137,14 @@ Examples of **multiple dependent time series** or **multivariate time series**:
 ## 5) <a id='five'></a> Error metrics
 
 Error metrics: summarize forecast errors into a single number to measure the accuracy of a forecast.    
-We need to transform forecasting errors to make them positive, to ensure negative and positive errors don't cancel each other.
+We need to transform forecasting errors to make them positive, to ensure negative and positive errors don't cancel each other.    
+In general, we can convert forecasting error by:
+* **Absolute** transformation: Mean absolute error (optimeze for the median thus better for ts with outliers):
+$$ \text{MAE} = \frac{1}{N} \sum_{i=1}^{n} \left| y_i - \hat{y}_i \right| $$
+* **Square** transformation: Root mean square error (optimeze for the mean thus better for intermittent ts):
+$$ \text{RMSE} = $$
+
+
 
 ### Measuring forecasting errors
 
