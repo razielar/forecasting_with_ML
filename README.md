@@ -193,7 +193,7 @@ $$ p_t = \frac{100e_t}{y_t} $$
 
 Symmetric percentage error:
 
-$$ p^{*}_{t} = \frac{100e_t}{hola} $$
+$$ p^{*}_{t} = \frac{100e_t}{ \frac{1}{2} \left( |y_t| + |\hat{y_t}| \right) } $$
 
 
 **Relative**
