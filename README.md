@@ -204,6 +204,8 @@ $$ p^{*}_{t} = \frac{100e_t}{ \frac{1}{2} \left( |y_t| + |\hat{y_t}| \right) } $
 </div>
 
 
+Percentage errors behave badly both when $y = 0$ or $\hat{y} = 0$, as depicted below:
+
 
 
 
