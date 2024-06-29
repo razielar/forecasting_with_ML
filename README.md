@@ -164,13 +164,18 @@ Factors that impact which error metric to use:
 <img src="https://github.com/razielar/forecasting_with_ML/blob/main/img/factor_error_metrics.png" alt="logo"></img>
 </div>
 
+### Scale dependent error metrics
+
+
+
+
 ### Scale independent error metrics
 
 **Percentage**
 
 **Relative**
 
-Using a baseline forecast as comparison.
+Using a baseline forecast as comparison, on the `test set` at the one time point.
 
 **Scaled**
 
@@ -183,8 +188,9 @@ $$ \text{MASE} =  \text{mean}(|q_t|) $$
 
 $$ \text{RMSSE} =  \sqrt{ \text{mean}(q_t^2) } $$
 
-
-
+Interpretation:
+* When MASE or RMSSE > 1: performing worse than a naive forecast.
+* When MASE or RMSSE < 1: performing better than a naive forecast.
 
 
 ### Multiple time series
