@@ -141,9 +141,9 @@ Backtesting is where we measure the performance of a forecasting model on histor
 
 Before, starting we need to define the following variables: Dataset, Forecasting horizon, Error metrics, and Models. 
 Additionally, we need to consider the following:
-* Training window: initial traing size and expanding or rolling 
+* Training window: initial traing size and expanding or rolling.
 * Model refitting: once, multiple times or intermittent.
-* Number of steps the forecasting origin moves
+* Number of steps the forecasting origin moves.
 * Gap: gap or not gap.
 
 **Ranking of backtesting strategies** (from more generalized to less generalizable):
@@ -152,6 +152,14 @@ Additionally, we need to consider the following:
 * **2)** Backtesting with intermittent refitting.
 * **3)** Backtesting with refit (`Nixtla` strategy).
 * **4)** Backtesting without refit.
+
+### Backtesting without refit
+
+Genrally avoid use it.
+
+
+
+
 
 ## 5) <a id='five'></a> Error metrics
 
