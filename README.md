@@ -151,6 +151,11 @@ $$ \text{RMSE} = \sqrt{ \frac{1}{n} \sum_{i=1}^{n} \left( y_i - \hat{y}_i \right
 <img src="https://github.com/razielar/forecasting_with_ML/blob/main/img/error_metrics_table.png" alt="logo"></img>
 </div>
 
+As described above, error metrics can be classified by:
+* Aggregation: mean or median (more robust to outliers).
+* Type of forecast error transformation: absolute or square transformation.
+* Other. 
+
 ### Measuring forecasting errors
 
 Factors that impact which error metric to use:
