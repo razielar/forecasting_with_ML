@@ -145,7 +145,7 @@ $$ \text{MAE} = \frac{1}{n} \sum_{i=1}^{n} \left| y_i - \hat{y}_i \right| $$
 
 $$ \text{RMSE} = \sqrt{ \frac{1}{n} \sum_{i=1}^{n} \left( y_i - \hat{y}_i \right)^2 } $$
 
-To see a complitec guideline for when to use each error metric, see [error metric guidelines](https://github.com/razielar/forecasting_with_ML/blob/main/05_error_metrics/Guidelines.md).
+To see a complitec guideline for when to use each error metric, see: [error metric guidelines](https://github.com/razielar/forecasting_with_ML/blob/main/05_error_metrics/Guidelines.md).
 
 ### Error metrics classification
 
@@ -221,7 +221,13 @@ However, exist a modified percentage errors which help with zeros, see more [her
 
 **Relative**
 
-Using a baseline forecast as comparison, on the `test set` at the one time point.
+Using a baseline forecast as comparison, benchmark forecast: 
+* Last value of the time series
+* Historical average of the training set.
+
+**Relative error metrics**
+
+
 
 **Scaled**
 
