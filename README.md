@@ -165,6 +165,18 @@ backtesting_forecaster(
 
 ### Backtesting with intermittent refitting
 
+This backtesting can be used following:
+* Expanding Training Window
+* Rolling Training Window
+
+```python
+backtesting_forecaster(
+    allow_incomplete_fold=True,
+    fixed_train_size=False, # Expanding Training Window
+    refit=2,
+)
+```
+
 ![image](https://github.com/razielar/forecasting_with_ML/blob/main/img/backtesting/backtesting_intermittent_refit.gif)
 
 ### Backtesting with refit
