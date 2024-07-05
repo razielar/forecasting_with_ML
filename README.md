@@ -152,6 +152,15 @@ Additionally, we need to consider the following:
 
 ### Backtesting with refit and fixed training size
 
+Also, named: Backtesting with refit and rolling training window.
+
+```python
+backtesting_forecaster(
+    fixed_train_size=True,
+    refit=True,
+)
+```
+
 ![image](https://github.com/razielar/forecasting_with_ML/blob/main/img/backtesting/backtesting_refit_fixed_train_size.gif)
 
 ### Backtesting with refit
