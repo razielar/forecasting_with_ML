@@ -166,7 +166,7 @@ backtesting_forecaster(
 ### Backtesting with intermittent refitting
 
 This backtesting can be used following:
-* Expanding Training Window
+* Expanding Training Window (gif)
 * Rolling Training Window
 
 ```python
