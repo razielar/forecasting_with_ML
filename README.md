@@ -152,6 +152,13 @@ Additionally, we need to consider the following:
 
 ### Backtesting with refit
 
+```python
+backtesting_forecaster(
+    fixed_train_size=False,
+    refit=True,
+)
+```
+
 ![image](https://github.com/razielar/forecasting_with_ML/blob/main/img/backtesting/backtesting_refit.gif)
 
 ### Backtesting without refit
