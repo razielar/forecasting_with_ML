@@ -150,6 +150,8 @@ Additionally, we need to consider the following:
 * **3)** Backtesting with refit (`Nixtla` strategy).
 * **4)** Backtesting without refit.
 
+APPENDIX: we can also use backtesting with gap (the predictions that are made during the gap period are not used in the calculation of the error metric).
+
 ### Backtesting with refit and fixed training size
 
 Also named: Backtesting with refit and rolling training window.
@@ -195,6 +197,19 @@ backtesting_forecaster(
 Genrally avoid use it.
 
 ![image](https://github.com/razielar/forecasting_with_ML/blob/main/img/backtesting/backtesting_no_refit.gif)
+
+### Backtesting with Gap
+
+![image](https://github.com/razielar/forecasting_with_ML/blob/main/img/backtesting/backtesting_refit_gap.gif)
+
+```python
+backtesting_forecaster(
+    gap=n, # integer
+    refit=True,
+    fixed_train_size=False,
+    allow_incomplete_fold=True,
+)
+```
 
 
 ## 5) <a id='five'></a> Error metrics
