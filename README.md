@@ -329,7 +329,7 @@ $$ \text{MASE} =  \text{mean}(|q_t|) $$
 $$ \text{RMSSE} =  \sqrt{ \text{mean}(q_t^2) } $$
 
 Interpretation:
-* When MASE or RMSSE > 1: performing worse than a naive forecast.
+* When MASE (Mean Absolute Scaled Error) or RMSSE > 1: performing worse than a naive forecast.
 * When MASE or RMSSE < 1: performing better than a naive forecast.
 
 
